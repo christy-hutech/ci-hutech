@@ -1,0 +1,155 @@
+.signin-wrapper {
+    box-sizing: border-box;
+    position: absolute;
+    height:auto;
+    left: 717px;
+    top: 87px;
+}
+.signin-wrapper p {
+    margin-top: 17px;
+}
+.signin-wrapper input {
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.signin-wrapper h3 {
+    width: 256px;
+    height: 44px;
+    left: 866px;
+    top: 168px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 136%;
+    color: #1F1A17;
+}
+.signin-wrapper .input-field {
+    width: 410px;
+    height: 48px;
+    background: #FFFFFF;
+    text-align: left;
+    border-bottom: 3px solid #ebeaf1;
+    outline: none;
+    color:black ;
+}
+.submit-1 {
+    width: 410px;
+    height: 48px;
+    background: #DA251C;
+    border-radius: 32px;
+}
+.section-or {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #1F1A17;
+    opacity: 0.6;
+}
+.submit-2 {
+    width: 410px;
+    height: 48px;
+    background: #1A73E8;
+    border-radius: 32px;
+}
+.submit-3 {
+    width: 410px;
+    height: 48px;
+    background: #45619D;
+    border-radius: 32px;
+}
+.submit-4 {
+    width: 410px;
+    height: 48px;
+    background: #02B8F1;
+    border-radius: 32px;
+}
+.submit-5 {
+    width: 410px;
+    height: 48px;
+    background: #FFEBEB;
+    border-radius: 32px;
+    color: #332C2C!important;
+}
+.terms {
+    width: 410px;
+    height: 36px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #1F1A17;
+    opacity: 0.6;
+    padding-left: 0px;
+}
+.popup-back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 10000;
+}
+.popup-form {
+    justify-content: center;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    padding: 16px 0px 16px 0px;
+}
+.popup-form,.share-btn {
+    position: relative;
+}
+.share-btn-logo {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    cursor: pointer;
+}
+.sign-up .terms .sbtitle {
+    float: left;
+}
+.sign-up .terms .login-btn {
+    float:right;
+}
+.signin-wrapper .login-btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #DA251C;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ANTD */
+.signin-wrapper .ant-modal-close-x .anticon svg{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: #E9E8E8;
+    width: 38px;
+    height: 38px;
+}
+.ant-modal-centered .ant-modal {
+    top: 108px;
+}
+.ant-modal-close {
+    top: 8px;
+}

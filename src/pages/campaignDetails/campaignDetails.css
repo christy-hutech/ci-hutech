@@ -1,0 +1,142 @@
+.campaign-details-wrapper {
+    /* background: white; */
+    padding: 102px 0px 0px 0px;
+}
+.campaign-section-1 {
+    
+    left: 0px;
+    top: 0px;
+    background: #1F1A17;
+}
+.sub-campaign-section-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+
+.campaign-section-1 h1 {
+    width: 100%;
+    height: 162px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 136%;
+    color: #FFFFFF;
+}
+.campaign-section-1 div {
+    /* padding: 55px; */
+    
+}
+.campaign-section-1 .title-setion {
+    margin-right: 51px;
+    /* border :1px solid red; */
+    /* width:50%; */
+}
+.campaign-section-1 .img-section {
+    /* width:80%; */
+}
+.campaign-section-1 p{
+    width: 90%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.campaign-section-1 span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.sub-section-1 {
+    width: 12%;
+}
+.sub-section-1 p {
+    margin-left: 10px;
+}
+.campaign-section-2 {
+    display:flex;
+    /* width: 109%; */
+    width :100%;
+}
+.campaign-section-2 .content {
+    padding: 27px;
+}
+.campaign-section-2 .sub-section-2 {
+    width: 65%;
+}
+.campaign-section-2 .sub-content p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F1A17;
+}
+.campaign-section-2 .sub-section-2 .box{
+    display:flex;
+    height: 132px;
+    left: 190px;
+    top: 1145px;
+    background: #FFFFFF;
+    border: 1.25px solid #DA251C;
+    margin-bottom: 54px;
+    margin-top: 54px;
+}
+.campaign-section-2 .sub-section-2 .box .box-content {
+    padding: 10px;
+    width: 90%;
+}
+.campaign-section-2 .sub-section-2 .box img {
+    width: 20px;
+    float: right;
+    margin-top: 13px;
+}
+.campaign-section-2 .sub-section-2 .box .image {
+    width:10%;
+}
+.campaign-section-2 .latter {
+    margin: 54px 0px 0px 0px;
+    padding: 13px;
+    background: #F4F4F3;
+}
+.campaign-section-2 .latter h1 {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1F1A17;
+}
+.campaign-section-2 .viewpoints {
+    margin: 54px 0px 0px 0px;
+}
+.sub-section-3 {
+    padding: 27px;
+    
+}
+.sub-section-3 .editorial {
+    width: 68%;
+    padding: 25px;
+    height: 1296px;
+    background: #F4F4F3;
+}
+.editorial-content {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F1A17;
+}

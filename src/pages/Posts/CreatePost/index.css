@@ -1,0 +1,94 @@
+.creat-post-container {
+  display: flex;
+  width: 94%;
+  margin: auto;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding-right: 2%;
+}
+.creat-post-top-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.creat-post-top-row-heading {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 65%;
+  padding-left: 1%;
+}
+.creat-post-top-row-actions {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.create-post-buttons {
+  padding-inline: 20px;
+  background-color: white;
+  border: 1px solid #1f1a17;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: black;
+}
+.selected-button{
+    background-color: black;
+    color: white;
+    padding-inline: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.create-post-details {
+  margin-top: 2%;
+  height: fit-content;
+}
+.create-post-left-side {
+  height: 100%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+  padding: 2%;
+}
+.create-post-right-side {
+  height: 100%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+  padding: 2%;
+}
+.create-post-left-side > div {
+  margin-top: 2%;
+}
+.create-post-right-side > div {
+  margin-top: 2%;
+}
+.create-post-left-side-lebel {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 1%;
+}
+.create-post-right-side-lebel {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .creat-post-top-row-heading {
+    width: 100%;
+  }
+  .creat-post-top-row-actions {
+    width: 100%;
+    margin-left: 10px;
+  }
+}

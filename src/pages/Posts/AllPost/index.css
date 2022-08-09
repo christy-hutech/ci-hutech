@@ -1,0 +1,83 @@
+.all-post-container {
+  width: 94%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: white;
+}
+.all-post-main-container {
+  background-color:#f0f2f5;
+  padding: 1% 0;
+}
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #fbfbfb;
+}
+.all-post-table {
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+}
+
+.all-post-top-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1%;
+}
+.all-post-top-row-heading {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+}
+.all-post-top-row-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.all-post-input {
+  padding-inline: 20px;
+  background-color: white;
+  border: 1px solid #1f1a17;
+  border-radius: 20px;
+  margin-right: 20px;
+  height: 40px;
+}
+
+.all-post-search-buttons {
+  background-color: #1f1a17;
+  color: white;
+  border: none;
+  height: 40px;
+  margin-right: 20px;
+}
+.all-post-submit-buttons {
+  border: none;
+  height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .all-post-top-row-heading {
+    width: 100%;
+  }
+  .all-post-top-row-actions {
+    width: 100%;
+  }
+  .all-post-main-container{
+    background-color: white;
+  }
+  .all-post-table{
+    box-shadow: none;
+  }
+}
